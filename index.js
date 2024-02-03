@@ -3,7 +3,7 @@ var app = express();
 var fs = require("fs");
 var io = require('socket.io-client');
 
-var socket = io('https://socketblind.rtac.repl.co');
+var socket = io('https://blindspace.onrender.com');
 
 app.get('/click/:id', function (req, res) {
   console.log(req.params.id)
